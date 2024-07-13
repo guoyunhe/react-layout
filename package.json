@@ -1,4 +1,7 @@
 {
+  "name": "@guoyunhe/react-layout",
+  "version": "0.0.1",
+  "description": "React common layout components",
   "homepage": "https://github.com/guoyunhe/react-layout#readme",
   "bugs": {
     "url": "https://github.com/guoyunhe/react-layout/issues"

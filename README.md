@@ -1,2 +1,3 @@
-# react-layout
-React layout components
+# @guoyunhe/react-layout
+
+React common layout components
