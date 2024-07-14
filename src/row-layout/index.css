@@ -1,0 +1,16 @@
+.gyh-row-layout {
+  --gyh-row-layout-gap: 8px;
+
+  display: flex;
+  flex-direction: row;
+  gap: var(--gyh-row-layout-gap);
+  align-items: center;
+}
+
+.gyh-row-layout-inline {
+  display: inline-flex;
+}
+
+.gyh-row-layout-wrap {
+  flex-wrap: wrap;
+}
