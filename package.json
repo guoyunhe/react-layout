@@ -55,8 +55,7 @@
     "react-doc-ui": "^2.2.6",
     "react-dom": "^18.3.1",
     "rive": "^2.0.33",
-    "typescript": "^5.5.3",
-    "whatwg-fetch": "^3.6.20"
+    "typescript": "^5.5.3"
   },
   "peerDependencies": {
     "react": "^18.0.0 || ^17.0.0 || ^16.8.0"
