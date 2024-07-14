@@ -1,8 +1,8 @@
 # ColumnLayout 列布局
 
-## Default
+## 默认
 
-```jsx filename="Default"
+```jsx filename="默认"
 import { ColumnLayout } from '@guoyunhe/react-layout';
 
 <ColumnLayout>
@@ -12,9 +12,9 @@ import { ColumnLayout } from '@guoyunhe/react-layout';
 </ColumnLayout>;
 ```
 
-## Gap/Spacing
+## 间距
 
-```jsx filename="Gap in pixels"
+```jsx filename="像素间距"
 import { ColumnLayout } from '@guoyunhe/react-layout';
 
 <ColumnLayout gap={20}>
@@ -24,7 +24,7 @@ import { ColumnLayout } from '@guoyunhe/react-layout';
 </ColumnLayout>;
 ```
 
-```jsx filename="Gap in other units"
+```jsx filename="其他单位间距"
 import { ColumnLayout } from '@guoyunhe/react-layout';
 
 <ColumnLayout gap="2rem">
@@ -34,9 +34,9 @@ import { ColumnLayout } from '@guoyunhe/react-layout';
 </ColumnLayout>;
 ```
 
-## Horizontal align
+## 水平对齐
 
-```jsx filename="Horizontal align left/start"
+```jsx filename="水平对齐：左/开始"
 import { ColumnLayout } from '@guoyunhe/react-layout';
 
 <ColumnLayout align="flex-start">
@@ -46,7 +46,7 @@ import { ColumnLayout } from '@guoyunhe/react-layout';
 </ColumnLayout>;
 ```
 
-```jsx filename="Horizontal align right/end"
+```jsx filename="水平对齐：右/结尾"
 import { ColumnLayout } from '@guoyunhe/react-layout';
 
 <ColumnLayout align="flex-end">
@@ -56,7 +56,7 @@ import { ColumnLayout } from '@guoyunhe/react-layout';
 </ColumnLayout>;
 ```
 
-```jsx filename="Horizontal stretch"
+```jsx filename="水平对齐：拉伸"
 import { ColumnLayout } from '@guoyunhe/react-layout';
 
 <ColumnLayout align="stretch">
