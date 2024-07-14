@@ -2,64 +2,66 @@
 
 ## 默认
 
-```jsx filename="Default"
-import { Button, RowLayout } from '@guoyunhe/react-layout';
+默认间距是 8px，水平左对齐，垂直居中对齐。
+
+```jsx filename="默认"
+import { RowLayout } from '@guoyunhe/react-layout';
 
 <RowLayout>
-  <Button size="small">Small Button</Button>
-  <Button size="medium">Medium Button</Button>
-  <Button size="large">Large Button</Button>
+  <button style={{ fontSize: 12 }}>小按钮</button>
+  <button style={{ fontSize: 16 }}>中按钮</button>
+  <button style={{ fontSize: 20 }}>大按钮</button>
 </RowLayout>;
 ```
 
 ## 间距
 
-```jsx filename="Gap in pixels"
-import { Button, RowLayout } from '@guoyunhe/react-layout';
+```jsx filename="像素间距"
+import { RowLayout } from '@guoyunhe/react-layout';
 
 <RowLayout gap={20}>
-  <Button size="small">Small Button</Button>
-  <Button size="medium">Medium Button</Button>
-  <Button size="large">Large Button</Button>
+  <button style={{ fontSize: 12 }}>小按钮</button>
+  <button style={{ fontSize: 16 }}>中按钮</button>
+  <button style={{ fontSize: 20 }}>大按钮</button>
 </RowLayout>;
 ```
 
-```jsx filename="Gap in other units"
-import { Button, RowLayout } from '@guoyunhe/react-layout';
+```jsx filename="其他单位间距"
+import { RowLayout } from '@guoyunhe/react-layout';
 
 <RowLayout gap="2rem">
-  <Button size="small">Small Button</Button>
-  <Button size="medium">Medium Button</Button>
-  <Button size="large">Large Button</Button>
+  <button style={{ fontSize: 12 }}>小按钮</button>
+  <button style={{ fontSize: 16 }}>中按钮</button>
+  <button style={{ fontSize: 20 }}>大按钮</button>
 </RowLayout>;
 ```
 
 ## 折行
 
-```jsx filename="Wrap"
-import { Button, RowLayout } from '@guoyunhe/react-layout';
+```jsx filename="折行"
+import { RowLayout } from '@guoyunhe/react-layout';
 
 <div style={{ maxWidth: 300 }}>
   <RowLayout wrap>
-    <Button size="small">Small Button</Button>
-    <Button size="medium">Medium Button</Button>
-    <Button size="large">Large Button</Button>
+    <button style={{ fontSize: 12 }}>小按钮</button>
+    <button style={{ fontSize: 16 }}>中按钮</button>
+    <button style={{ fontSize: 20 }}>大按钮</button>
   </RowLayout>
 </div>;
 ```
 
 ## 行内
 
-```jsx filename="Inline"
-import { Button, RowLayout } from '@guoyunhe/react-layout';
+```jsx filename="行内"
+import { RowLayout } from '@guoyunhe/react-layout';
 
 <div>
   <RowLayout inline>
-    <Button size="small">Small Button</Button>
-    <Button size="medium">Medium Button</Button>
-    <Button size="large">Large Button</Button>
+    <button style={{ fontSize: 12 }}>小按钮</button>
+    <button style={{ fontSize: 16 }}>中按钮</button>
+    <button style={{ fontSize: 20 }}>大按钮</button>
   </RowLayout>
   &nbsp;
-  <span>Other stuff...</span>
+  <span>其他内容...</span>
 </div>;
 ```

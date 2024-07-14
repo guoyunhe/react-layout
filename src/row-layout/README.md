@@ -2,48 +2,50 @@
 
 ## Default
 
+Default gap is 8px. Default alignment is left in horizontal and center in vertical.
+
 ```jsx filename="Default"
-import { Button, RowLayout } from '@guoyunhe/react-layout';
+import { RowLayout } from '@guoyunhe/react-layout';
 
 <RowLayout>
-  <Button size="small">Small Button</Button>
-  <Button size="medium">Medium Button</Button>
-  <Button size="large">Large Button</Button>
+  <button style={{ fontSize: 12 }}>Small button</button>
+  <button style={{ fontSize: 16 }}>Medium button</button>
+  <button style={{ fontSize: 20 }}>Large button</button>
 </RowLayout>;
 ```
 
 ## Gap/Spacing
 
 ```jsx filename="Gap in pixels"
-import { Button, RowLayout } from '@guoyunhe/react-layout';
+import { RowLayout } from '@guoyunhe/react-layout';
 
 <RowLayout gap={20}>
-  <Button size="small">Small Button</Button>
-  <Button size="medium">Medium Button</Button>
-  <Button size="large">Large Button</Button>
+  <button style={{ fontSize: 12 }}>Small button</button>
+  <button style={{ fontSize: 16 }}>Medium button</button>
+  <button style={{ fontSize: 20 }}>Large button</button>
 </RowLayout>;
 ```
 
 ```jsx filename="Gap in other units"
-import { Button, RowLayout } from '@guoyunhe/react-layout';
+import { RowLayout } from '@guoyunhe/react-layout';
 
 <RowLayout gap="2rem">
-  <Button size="small">Small Button</Button>
-  <Button size="medium">Medium Button</Button>
-  <Button size="large">Large Button</Button>
+  <button style={{ fontSize: 12 }}>Small button</button>
+  <button style={{ fontSize: 16 }}>Medium button</button>
+  <button style={{ fontSize: 20 }}>Large button</button>
 </RowLayout>;
 ```
 
 ## Wrap
 
 ```jsx filename="Wrap"
-import { Button, RowLayout } from '@guoyunhe/react-layout';
+import { RowLayout } from '@guoyunhe/react-layout';
 
 <div style={{ maxWidth: 300 }}>
   <RowLayout wrap>
-    <Button size="small">Small Button</Button>
-    <Button size="medium">Medium Button</Button>
-    <Button size="large">Large Button</Button>
+    <button style={{ fontSize: 12 }}>Small button</button>
+    <button style={{ fontSize: 16 }}>Medium button</button>
+    <button style={{ fontSize: 20 }}>Large button</button>
   </RowLayout>
 </div>;
 ```
@@ -51,13 +53,13 @@ import { Button, RowLayout } from '@guoyunhe/react-layout';
 ## Inline
 
 ```jsx filename="Inline"
-import { Button, RowLayout } from '@guoyunhe/react-layout';
+import { RowLayout } from '@guoyunhe/react-layout';
 
 <div>
   <RowLayout inline>
-    <Button size="small">Small Button</Button>
-    <Button size="medium">Medium Button</Button>
-    <Button size="large">Large Button</Button>
+    <button style={{ fontSize: 12 }}>Small button</button>
+    <button style={{ fontSize: 16 }}>Medium button</button>
+    <button style={{ fontSize: 20 }}>Large button</button>
   </RowLayout>
   &nbsp;
   <span>Other stuff...</span>
