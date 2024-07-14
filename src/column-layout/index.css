@@ -1,0 +1,16 @@
+.gyh-column-layout {
+  --gyh-column-layout-gap: 8px;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--gyh-column-layout-gap);
+  align-items: center;
+}
+
+.gyh-column-layout-inline {
+  display: inline-flex;
+}
+
+.gyh-column-layout-wrap {
+  flex-wrap: wrap;
+}

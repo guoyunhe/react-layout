@@ -2,4 +2,5 @@
 
 ## 未发布
 
+- ColumnLayout: 新组件
 - RowLayout: 新组件
